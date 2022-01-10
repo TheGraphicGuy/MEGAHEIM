@@ -1,0 +1,28 @@
+﻿<Window x:Class="Megaheim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Megaheim"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        mc:Ignorable="d" 
+        Height="500" Width="500"
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/MegaHeim;component/Images/megaheim1.png"/>
+        </Grid.Background>
+        <Button Content="INSTALL" HorizontalAlignment="Left" Margin="220,109,0,0" VerticalAlignment="Top" Width="60" FontWeight="Bold" FontFamily="Yu Gothic UI Semibold" Opacity="0.8" Background="#FF83F016">
+        </Button>
+        <Button Content="UPDATE" HorizontalAlignment="Left" Margin="220,134,0,0" VerticalAlignment="Top" Width="60" FontFamily="Yu Gothic UI Semibold" FontWeight="Bold" Opacity="0.6" Background="#FFFFA200">
+        </Button>
+        <Button Content="REMOVE" HorizontalAlignment="Left" Margin="220,159,0,0" VerticalAlignment="Top" Width="60" FontFamily="Yu Gothic UI Semibold" Opacity="0.6" Background="#FFFF0046" Foreground="White">
+        </Button>
+
+
+
+    </Grid>
+</Window>
